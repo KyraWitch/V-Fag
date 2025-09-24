@@ -27,8 +27,8 @@ h1, h2 {
     padding: 14px 20px;
     text-align: center;
     overflow: auto;
-    
 }
+
 nav ul li a:hover {
     color: blue;
 }
@@ -44,9 +44,9 @@ nav ul {
     justify-content: center;
 }
 /*Picture nav bar on index*/
-.pic-ref, nav ul li {
+.pic-ref {
     list-style: none;
-}
+} /*I think ^ is a repeat..? Test needed */
 .pic-ref li a{
 color: mediumseagreen;
 text-decoration: none;
@@ -61,7 +61,7 @@ footer {
 }
 
 header {
-     text-align: center;
+    text-align: center;
     font-size: xx-large;
     color: lightgreen;
 }
@@ -94,4 +94,5 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
 }
