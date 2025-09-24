@@ -1,0 +1,186 @@
+/*Style sheet*/
+/*Font thing*/
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+  --body-colour: darkslategray;
+}
+
+.Title {
+   font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+}
+
+body {
+  color: var(--body-colour);
+}
+.h1/h2 {
+ color: darkgreen;
+  text-shadow: -2px;
+  filter: blur(radius) 2px silver;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+/*Nav bar Dont touch it*/
+.Nav-div {
+  background-color: darkgreen;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 14px 20px;
+  text-align: center;
+  overflow: auto;
+}
+nav ul li a:hover {
+  color: blue;
+}
+nav ul li a {
+  color: mintcream;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+/*Picture nav bar on index*/
+.pic-ref,
+nav ul li {
+  list-style: none;
+}
+.pic-ref li a {
+  color: mediumseagreen;
+  text-decoration: none;
+  display: inline;
+}
+
+/*Footer & Header possibly no change needed*/
+
+footer {
+  background-color: darkgreen;
+  max-height: 30px;
+}
+
+header {
+  text-align: center;
+  font-size: xxx-large;
+  color: lightgreen;
+  justify-content: center;
+  font-weight: 100;
+  text-decoration: solid;
+}
+
+/*Images with nav INDEX*/
+
+.Img-s {
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  outline-offset: -10px;
+}
+
+/*Main images on INDEX*/
+.picRefTitle {
+    font-size: x-large;
+    height: fit-content;
+    color: darkcyan;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.Img-main {
+  width: 700px;
+  height: 800px;
+  outline-offset: -10px;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  float: right;
+  
+}
+
+/*Index flex box*/
+
+/*Inhold Con */
+
+.Inhold {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: medium;
+  outline: 6px solid mediumaquamarine;
+border-radius: 3%;
+overflow: auto;
+}
+
+.flexIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pic-ref {
+  display: flex;
+  order: 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: larger;
+}
+
+
+/*Bean page*/
+
+.flexPlantPages {
+  display: flex;
+  flex-direction: row;
+}
+.plantFlexItem {
+  display: flex;
+  margin-top: 15px;
+  float: right;
+  box-sizing: border-box;
+  height: auto;
+  width: 45%;
+  font-size: medium;
+}
+.plantFlexImg {
+  display: flex;
+  float: left;
+  box-sizing: border-box;
+  height: auto;
+  width: 45%;
+}
+.Sub-tl {
+  color: green;
+  font-size: x-large;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
